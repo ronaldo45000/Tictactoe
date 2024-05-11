@@ -14,7 +14,7 @@ class Agent {
         const scores = [];
         const moves = [];
         let i = 0;
-        // // Loop through all cells
+        // Loop through all cells
         while(i < board.cells.length){            
             const cell = i + 1;
             //  If the cell is free, simulate the move and perform the recursive on minimax
